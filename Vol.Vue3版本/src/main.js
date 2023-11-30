@@ -33,9 +33,9 @@ app.config.globalProperties.$global = {
     },
     audit: { //审核选项
         data: [
-            { text: '通过', value: 1 },
-            { text: '拒绝', value: 3 },
-            { text: '驳回', value: 4 }
+            { text: '通过', value: 1 },//English: pass through, get through Russian: проходить, пройти
+            { text: '拒绝', value: 3 },//English: refuse, reject, decline Russian: отказывать, отказать
+            { text: '驳回', value: 4 } //English: reject, refuse, repudiate Russian: отклонять, отклонить
         ],
         status:[0,2] //审核中的数据
         // 待审核 = 0,
